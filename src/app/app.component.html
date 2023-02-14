@@ -1,0 +1,27 @@
+<style></style>
+
+<!-- Header -->
+<header class="header" role="header">
+  <div class="header__container">
+    <div class="header__offset">
+      <div class="header__flex">
+        <a class="header__logo" routerLink="/">{{ logo }}</a>
+        <nav class="header__nav">
+          <a class="header__link" routerLink="/create">Create Blog</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main class="content" role="main">
+  <router-outlet></router-outlet>
+</main>
+
+<!-- Footer -->
+<footer class="footer" role="footer">
+  <div class="footer__container">
+    <div class="footer__offset"></div>
+  </div>
+</footer>

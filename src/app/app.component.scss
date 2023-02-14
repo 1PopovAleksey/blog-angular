@@ -1,0 +1,39 @@
+@import "../assets/mixins.scss";
+
+.header {
+  background-color: #121212;
+
+  &__container {
+    @include container;
+  }
+
+  &__offset {
+    padding: 20px 0;
+  }
+
+  &__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--white);
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--white);
+  }
+}
